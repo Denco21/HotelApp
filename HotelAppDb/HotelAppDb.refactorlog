@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3024addb-4025-4ec6-a8f6-35e396a3aa8e" ChangeDateTime="11/14/2023 17:42:04">
+    <Property Name="ElementName" Value="[dbo].[FK_Rooms_]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Rooms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Rooms_roomTypes]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53ec9c3c-b862-4003-b6fd-a15314553bf1" ChangeDateTime="11/14/2023 17:42:17">
+    <Property Name="ElementName" Value="[dbo].[FK_Rooms_roomTypes]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Rooms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Rooms_RoomTypes]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7de1d2e7-2843-4e00-a38a-a1304188aab5" ChangeDateTime="11/14/2023 18:06:34">
+    <Property Name="ElementName" Value="[dbo].[Bookings].[Guest]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bookings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GuestId" />
+  </Operation>
+</Operations>
